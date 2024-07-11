@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documen</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="background-style">
+    <div class="scorecard-design">
+         <div class="home-side" id="home-space">
+             <h1 class="margin-below">HOME</h1>
+             <p class="score-box" id="home-score">0</p>
+             <button class="btn-style" onclick="homeAddOne()">+1</button>
+             <button class="btn-style" onclick="homeAddTwo()">+2</button>
+             <button class="btn-style" onclick="homeAddThree()">+3</button>
+         </div>
+
+         <div class="guest-side">
+             <h1 class="margin-below" >GUEST</h1>
+             <p class="score-box" id="guest-score">0</p>
+             <button class="btn-style" onclick="guestAddOne()">+1</button>
+             <button class="btn-style" onclick="guestAddTwo()">+2</button>
+             <button class="btn-style" onclick="guestAddThree()">+3</button>
+        </div>
+    </div>
+   
+    <div id="btn-box">
+        <button class="btn-newgame" onclick="newGame()">NEW GAME</button>
+    </div>
+   
+    
+
+    <script src="index.js"></script>
+</div>
+</body>
+</html>
