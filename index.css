@@ -8,13 +8,14 @@
     width: 400px;
     height: 250px;
     background-color:#090c9b;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px gray;
    
 }
 
 
 
 body{
+    background-color: black;
     margin-top: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
